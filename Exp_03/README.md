@@ -70,7 +70,7 @@ The values used for the sine wave input are:
 
 ## **Observation Table**
 
-| Sr No. | \( V_{in} \) (V) | \( f \) (Hz) | \( V_{out} \) (V) Theory | \( V_{out} \) (V) Practical | \( V_{gain} \) | \( V_{gain} \) (dB) |
+| Sr No. |    Vin (V)     |    f (Hz)    |     Vout (V) Theory      |     Vout (V) Practical    |      Vgain      |   Vgain(in dB)   |
 |--------|----------------|--------------|--------------------------|---------------------------|-----------------|------------------|
 | 1      | 10             | 100          | 9.9                      | 9.88                      | 0.988           | -0.104           |
 | 2      | 10             | 200          | 9.63                     | 9.6                       | 0.96            | -0.354           |
@@ -100,5 +100,3 @@ The values used for the sine wave input are:
 - **Y-axis:** Gain (dB)
 
 ![Semi-Log Plot](images/Exp_03_semi_log.jpg)
-
-
