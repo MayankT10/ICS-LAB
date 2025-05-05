@@ -11,7 +11,7 @@ using MATLAB
 
 [X] 5. SSB SC Modulation and Demodulation
 
-[ ] 6. Frequency Modulation and Demodulation
+[X] 6. Frequency Modulation and Demodulation
 
 [ ] 7. Pre-Emphasis - De Emphasis Circuits
 

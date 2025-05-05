@@ -1,3 +1,6 @@
+% Name - Mayank Tilokchandani
+% PRN - 20240802543
+
 t = 0:0.001:1;
 am = 2; % amplitude of message signal
 ac = 2; % amplitude of carrier signal
@@ -76,5 +79,10 @@ ylabel('Amplitude');
 title('Upper Sideband Signal');
 grid on;
 
+
+
+
+
+
 % Misc. Watermark
-%annotation('textbox', 'String', '20240802543', 'FontSize', 30, 'Color', [0.5, 0.5, 0.5],'EdgeColor', 'none', 'HorizontalAlignment', 'center', 'Rotation', 45);
+annotation('textbox', 'String', '20240802543', 'FontSize', 60, 'Color', [0.7, 0.7, 0.7],'EdgeColor', 'none', 'HorizontalAlignment', 'center', 'Rotation', 45);

@@ -1,4 +1,6 @@
+% Name - Mayank Tilokchandani
 % PRN No. - 20240802543
+
 t = 0:0.001:1;
 a = 2;
 
@@ -57,11 +59,15 @@ grid on;
 
 
 
+
+
+
+
+
+
 % upper side band ko hata ke filter dalna hai basically s ka demodulation
-% karna hai homework hai RAHH ... Rahhh
-
-
-
+% karna hai , homework hai 
+% 
 
 
 

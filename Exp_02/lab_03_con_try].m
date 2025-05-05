@@ -1,3 +1,6 @@
+% Name - Mayank Tilokchandani
+% PRN No.- 20240802543
+
 f1 = 1;
 a1 = 1;
 t1 = 0:0.001:1;
@@ -33,3 +36,7 @@ xlabel('Time (s)');
 ylabel('Amplitude');
 title('Convolution Result');
 grid on;
+
+
+% Misc. Watermark
+%annotation('textbox', 'String', '20240802543', 'FontSize', 30, 'Color', [0.5, 0.5, 0.5],'EdgeColor', 'none', 'HorizontalAlignment', 'center', 'Rotation', 45);

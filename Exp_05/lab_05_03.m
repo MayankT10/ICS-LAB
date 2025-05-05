@@ -15,7 +15,7 @@ grid on;
 % Cosine Carrier Signal
 
 y = ac*cos(2*pi*fc*t);
-subplot(10,1,3);
+subplot(10,2,2);
 plot(t,y);
 xlabel('Time(s)');
 ylabel('Amplitude');
@@ -26,7 +26,7 @@ grid on;
 % Sine Message Signal
 
 x_shifted = am*sin(2*pi*fm*t);
-subplot(10,2,3);
+subplot(10,1,3);
 plot(t,x_shifted);
 xlabel('Time(s)');
 ylabel('Amplitude');
@@ -36,7 +36,7 @@ grid on;
 % Sine Carrier Signal
 fc = 10;
 y_shifted = ac*sin(2*pi*fc*t);
-subplot(10,1,4);
+subplot(10,2,4);
 plot(t,y_shifted);
 xlabel('Time(s)');
 ylabel('Amplitude');
@@ -54,7 +54,7 @@ grid on;
 
 % output of lower product modulator
 s2 = (am*ac)/2*(cos(2*pi*(fc+fm)*t)-cos(2*pi*(fc-fm)*t));
-subplot(10,1,1);
+subplot(10,2,6);
 plot(t,s2);
 xlabel('Time(s)');
 ylabel('Amplitude');
@@ -63,7 +63,7 @@ grid on;
 
 % SSBSC modulated wave s(t) having a lower sideband.
 lsb = s1+s2;
-subplot(10,2,2);
+subplot(10,1,7);
 plot(t,lsb);
 xlabel('Time(s)');
 ylabel('Amplitude');
@@ -95,4 +95,4 @@ grid on;
 
 
 % Misc. Watermark
-%annotation('textbox', 'String', '20240802543', 'FontSize', 30, 'Color', [0.5, 0.5, 0.5],'EdgeColor', 'none', 'HorizontalAlignment', 'center', 'Rotation', 45);
+annotation('textbox', 'String', '20240802543', 'FontSize', 30, 'Color', [0.5, 0.5, 0.5],'EdgeColor', 'none', 'HorizontalAlignment', 'center', 'Rotation', 45);

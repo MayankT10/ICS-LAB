@@ -78,3 +78,7 @@ grid on;
 
 % Ensure the plots are evenly spaced and readable
 sgtitle('SSB-SC Modulation Analysis');
+
+
+% Misc. Watermark
+annotation('textbox', 'String', '20240802543', 'FontSize', 30, 'Color', [0.5, 0.5, 0.5],'EdgeColor', 'none', 'HorizontalAlignment', 'center', 'Rotation', 45);

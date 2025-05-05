@@ -1,3 +1,6 @@
+% Name - Mayank Tilokchandani
+% PRN - 20240802543
+
 t = 0:0.001:1;
 
 % message signal values
@@ -40,11 +43,13 @@ ylabel('Amplitude');
 grid on;
 
 %h = diff(j);
-l = abs(j);
+%j = diff(y);
+
+l = abs(j); 
 % Demodulated signal using filter
-fs = 500*fc;
+fs = 70*fc;
 order = 5;
-cutoff_freq = 0.5*fm;
+cutoff_freq = 1.9*fm;
 [num,den] = butter(order,cutoff_freq/(fs/2));
 de_modulated_signal = filter(num,den,l);
 subplot(4,1,4);
@@ -53,3 +58,9 @@ title('Demodulated Signal');
 xlabel('Time');
 ylabel('Amplitude');
 grid on;
+
+
+
+
+% Misc. Watermark
+annotation('textbox', 'String', '20240802543', 'FontSize', 30, 'Color', [0.5, 0.5, 0.5],'EdgeColor', 'none', 'HorizontalAlignment', 'center', 'Rotation', 45);
