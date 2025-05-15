@@ -13,11 +13,11 @@ using MATLAB
 
 [X] 6. Frequency Modulation and Demodulation
 
-[ ] 7. Pre-Emphasis - De Emphasis Circuits
+[X] 7. Pre-Emphasis - De Emphasis Circuits
 
-[ ] 8. Verification of Sampling Theorem
+[X] 8. Verification of Sampling Theorem
 
-[ ] 9. PAM generation and Reconstruction
+[X] 9. PAM generation and Reconstruction
 
-[ ] 10. PWM and PPM generation and reconstruction
+[X] 10. PWM and PPM generation and reconstruction
 
